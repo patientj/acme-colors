@@ -14,7 +14,7 @@ highlight! FoldColumn guibg=#fcfcce guifg=fg ctermbg=229 ctermfg=fg
 highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
 highlight! LineNr guibg=bg guifg=#505050 gui=italic ctermbg=bg ctermfg=239 cterm=italic
 highlight! Visual guibg=fg guifg=bg ctermbg=fg ctermfg=bg
-highlight! CursorLine guibg=#ffffca guifg=fg ctermbg=230 ctermfg=fg
+highlight! CursorLine guibg=#cccc7c guifg=fg gui=NONE ctermbg=187 ctermfg=fg cterm=NONE
 
 highlight! Statement guibg=bg guifg=fg gui=italic ctermbg=bg ctermfg=fg cterm=italic
 highlight! Identifier guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
@@ -28,6 +28,10 @@ highlight! Directory guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
 highlight! link Title Directory
 highlight! link MoreMsg Comment
 highlight! link Question Comment
+highlight! Pmenu guibg=#fcfcce guifg=#000000 gui=NONE ctermbg=229 ctermfg=fg cterm=NONE
+highlight! PmenuSel guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
+highlight! PmenuSbar guibg=#cccc7c guifg=#fg gui=NONE ctermbg=187 ctermfg=fg cterm=NONE
+highlight! PmenuThumb guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 
 " vim
 hi link vimFunction Identifier
