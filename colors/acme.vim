@@ -30,7 +30,7 @@ highlight! link MoreMsg Comment
 highlight! link Question Comment
 highlight! Pmenu guibg=#fcfcce guifg=#000000 gui=NONE ctermbg=229 ctermfg=fg cterm=NONE
 highlight! PmenuSel guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
-highlight! PmenuSbar guibg=#cccc7c guifg=#fg gui=NONE ctermbg=187 ctermfg=fg cterm=NONE
+highlight! PmenuSbar guibg=#cccc7c guifg=fg gui=NONE ctermbg=187 ctermfg=fg cterm=NONE
 highlight! PmenuThumb guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 
 " vim
